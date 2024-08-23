@@ -22,6 +22,18 @@
         <mxCell id="h5wU4Jra_da25x6hK2oK-6" value="enabled&amp;nbsp;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94); background-color: initial;&quot;&gt;tinyint&lt;/span&gt;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94);&quot;&gt;&amp;nbsp;NN&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h5wU4Jra_da25x6hK2oK-1" vertex="1">
           <mxGeometry y="160" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="0jXAyPtahvuR_Fjw-Tvn-1" value="Games" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="40" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0jXAyPtahvuR_Fjw-Tvn-2" value="&lt;span style=&quot;-webkit-text-stroke-color: rgb(94, 94, 94); background-color: initial;&quot;&gt;game id&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94); background-color: initial;&quot;&gt;int AI &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{PK}&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="0jXAyPtahvuR_Fjw-Tvn-1">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0jXAyPtahvuR_Fjw-Tvn-3" value="name&amp;nbsp;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94); background-color: initial;&quot;&gt;varchar(10) UQ NN&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="0jXAyPtahvuR_Fjw-Tvn-1">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0jXAyPtahvuR_Fjw-Tvn-6" value="img&amp;nbsp;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94);&quot;&gt;varchar(10)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94);&quot;&gt;NN&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(94, 94, 94); -webkit-text-stroke-color: rgb(94, 94, 94);&quot;&gt;UQ&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="0jXAyPtahvuR_Fjw-Tvn-1">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
